@@ -1,0 +1,46 @@
+body {
+  padding: 10px;
+}
+
+.name {
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: 600;
+}
+
+input {
+  border-style: solid;
+  border-color: lightgray;
+}
+
+.email {
+  font-size: 18px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.email input {
+  border-color: lightgray;
+}
+
+.your-message {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  padding-bottom: 30px;
+}
+
+div button {
+  background-color: white;
+  border-color: lightgray;
+  border-style: double;
+  /* border-radius rounded corners */
+  border-radius: 5px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
